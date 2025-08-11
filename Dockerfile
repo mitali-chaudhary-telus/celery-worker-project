@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
@@ -43,4 +43,4 @@ if __name__ == "__main__":\n\
 EXPOSE 8080
 
 # Command to run the service
-CMD ["python", "run_combined.py"]
+CMD ["python", "worker.py"]
