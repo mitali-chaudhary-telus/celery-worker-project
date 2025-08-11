@@ -1,0 +1,7 @@
+# Service account keys
+keys/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

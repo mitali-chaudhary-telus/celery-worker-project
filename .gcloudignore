@@ -1,0 +1,7 @@
+.git
+.gitignore
+.gcloudignore
+__pycache__/
+*.py[cod]
+*$py.class
+keys/
