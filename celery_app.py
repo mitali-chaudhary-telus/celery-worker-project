@@ -2,8 +2,7 @@ from celery import Celery
 import os
 
 # Set up Google Cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'c:\Users\mitachau\OneDrive - Capgemini\Desktop\worker-project\keys\service-account-key.json'
-
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/app/keys/service-account-key.json'
 # Create Celery app
 app = Celery('celery_pubsub')
 

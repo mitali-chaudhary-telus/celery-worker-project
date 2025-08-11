@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
+COPY keys/ keys/
 
 # Create a simple web server to satisfy Cloud Run's requirements
 RUN echo 'import os, http.server, socketserver, threading, time\n\
