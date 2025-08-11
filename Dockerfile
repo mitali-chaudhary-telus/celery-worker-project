@@ -37,7 +37,7 @@ if __name__ == "__main__":\n\
     \n\
     # Start Celery worker in the main thread\n\
     start_celery()\n\
-' > run_combined.py
+' > worker.py
 
 # Expose the port
 EXPOSE 8080
